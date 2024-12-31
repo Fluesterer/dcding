@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Bot Interface</title>
+</head>
+<body>
+    <h1>Discord Bot Interface</h1>
+    <form action="/send" method="POST">
+        <label for="message">Nachricht an Discord:</label><br>
+        <input type="text" id="message" name="message" required><br><br>
+        <label for="channel_id">Kanal-ID (z.B. 123456789012345678):</label><br>
+        <input type="text" id="channel_id" name="channel_id" required><br><br>
+        <input type="submit" value="Senden">
+    </form>
+</body>
+</html>
